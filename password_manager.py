@@ -27,4 +27,3 @@ while True:
         continue
 
 # to encrypt the data install 'pip install cryptography'
-# tech with tim
