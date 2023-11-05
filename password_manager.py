@@ -5,7 +5,7 @@ def view(): #functions
         for line in f.readlines(): # read the txt file line by line
             data = (line.rstrip()) # to remove the blank line after every line with rstrip()
             user, passw = data.split("|") # to split the data whenever there's a |
-            print("USER: " , user, ", PASSWORD: ", passw )
+            print("USER: " , user, ", PASSWORD: ", passw ) 
 def add():
     name = input("Account name: ")
     pwd = input("Password: ")
