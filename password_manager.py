@@ -1,4 +1,4 @@
-# master_pwd = input("What is the Master password? ")
+# master_pwd = input("What is the Master password? ") 
 
 def view(): #functions
     with open('passwords.txt', 'r') as f: # open in read mode
