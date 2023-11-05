@@ -23,7 +23,7 @@ while True:
     elif mode == "view":
         view()
     else:
-        print("Invalid mode. Try Again !")
+        print("Invalid mode. Try Again !") 
         continue
 
 # to encrypt the data install 'pip install cryptography'
