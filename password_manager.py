@@ -24,6 +24,6 @@ while True:
         view()
     else:
         print("Invalid mode. Try Again !")  
-        continue
+        continue 
 
 # to encrypt the data install 'pip install cryptography'
