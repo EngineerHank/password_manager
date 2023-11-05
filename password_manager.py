@@ -11,7 +11,7 @@ def add():
     pwd = input("Password: ")
 
     with open('passwords.txt', 'a') as f: # to open a file and close after execution, a appends the text, w writes and overwrite the file, r reads the file
-        f.write(name + "|" + pwd + "\n") #and to go to next line.
+        f.write(name + "|" + pwd + "\n") #and to go to next line. 
 
 
 while True:
