@@ -18,7 +18,7 @@ while True:
     mode = input("Would you like to add a new password or view existing ones (ADD / VIEW / QUIT): ").lower()
     if mode == "quit":
         break
-    if mode == "add":
+    if mode == "add": 
         add()
     elif mode == "view":
         view()
