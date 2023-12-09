@@ -15,7 +15,7 @@ def add():
 
 
 while True:
-    mode = input("Would you like to add a new password or view existing ones (ADD / VIEW / QUIT): ").lower()
+    mode = input("Would you like to add a new password or view existing ones (ADD / VIEW / QUIT): ").lower() #options for the user, also coverted to small letters
     if mode == "quit": 
         break
     if mode == "add": 
